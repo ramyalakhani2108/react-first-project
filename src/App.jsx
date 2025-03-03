@@ -1,13 +1,10 @@
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import MainContent from "./components/MainContent"
+import './index.css'
+import { FaCartArrowDown } from "react-icons/fa";
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <h1>Shopping cart <FaCartArrowDown /></h1>
     </div>
   )
 }
